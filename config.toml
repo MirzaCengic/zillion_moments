@@ -1,0 +1,88 @@
+title = "Zillion Moments"
+baseURL = "https://www.example.com"
+languageCode = "en-us"
+theme = "airspace-hugo"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[menu]
+
+  [[menu.header]]
+    weight = 2
+    name = "Tours"
+    url = "/work"
+  [[menu.header]]
+    weight = 3
+    name = "Contact"
+    url = "/contact"
+
+  [[menu.footer]]
+    weight = 1
+    name = "About us"
+    url = "#"
+  [[menu.footer]]
+    weight = 2
+    name = "Contact us"
+    url = "#"
+  [[menu.footer]]
+    weight = 3
+    name = "Terms"
+    url = "#"
+
+# The site's parameters
+[params]
+
+  # If you want to remove the copyright text you need a Themefisher license.
+  # This license is offered with a 50% discount for all Hugo users.
+  # For information see https://github.com/gohugoio/hugoThemes/issues/260
+
+  dateFormat = "6 January 2006"
+
+  home = "Home"
+
+  [params.slider]
+    enable = true
+    title = "Zillion Moments"
+    subtitle = "All the unique moments we share with you... <br>Providing boutique travel experiences."
+
+  [params.wrapper]
+    enable = true
+    title = "About Us"
+    italic = "We do tour related stuff blabla..."
+    paragraph = "Lorem ipsum dolor sit amet, consectetur adipisicing elit..."
+
+  [params.blog]
+    enable = true
+    title = "Get The Latest On What We're doing"
+    subtitle = "Catch up with us, anytime and anywhere"
+
+  [params.feature]
+    enable = true
+    title = "We believe in great ideas"
+    content = "Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus."
+    [params.feature.button]
+      caption = "View Works"
+      url = "#"
+
+  [params.call]
+    enable = true
+    title = "We design delightful digital experiences."
+    paragraph = "Read more about what we do and our philosophy of design. Judge for yourself The work and results we’ve achieved for other clients, and meet our highly experienced Team who just love to design."
+
+  [params.contact]
+    enable = true
+    title = "Drop us a note"
+    subtitle = "Don’t just take our word for it. Check out some of our latest work."
+    [params.contact.form]
+      name = "Your name"
+      email = "Your email"
+      subject = "Your subject"
+      message = "Your message"
+      button = "Send message"
+    [params.contact.box]
+      title = "Stop by for a visit"
+      address = "Sarajevo, Bosnia & Herzegovina"
+      email = "Email: zillion_moments@mail.com"
+      phone = "Phone: +387 62 918 357"
+    [params.contact.gmaps]
+      title = "We Also Count in Google Maps"
