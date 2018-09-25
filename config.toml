@@ -82,7 +82,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     [params.contact.box]
       title = "Stop by for a visit"
       address = "Sarajevo, Bosnia & Herzegovina"
-      email = "Email: zillion_moments@mail.com"
+      email = "Email: mirzaceng@gmail.com"
       phone = "Phone: +387 62 918 357"
     [params.contact.gmaps]
       title = "We Also Count in Google Maps"
