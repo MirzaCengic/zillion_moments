@@ -1,5 +1,5 @@
 title = "Zillion Moments"
-baseURL = "https://www.example.com"
+baseURL = "https://zillion-moments.netlify.com/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
